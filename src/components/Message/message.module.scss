@@ -1,0 +1,67 @@
+.root {
+  display: flex;
+  margin-bottom: 12px;
+
+ 
+  
+  & .user__image_container {
+    
+    & .user__image {
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      margin-right: 8px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+  
+  & .message__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #201F1E;
+    font-size: 15px;
+    & .user__name {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    & .user__text_you {
+      line-height: 20px;
+      max-width: 530px;
+      border-radius: 4px;
+      padding: 8px 12px;
+      background: #F3F3F3;
+      font-weight: 400;
+      display: flex;
+      align-items: flex-end;
+      padding-bottom: 10px;
+      box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.25);
+    }
+    & .user__text{
+      background: rgba(64, 126, 201, 0.16);
+    }
+    & .message__time {
+      position: relative;
+      top: 10px;
+      right: 5px;
+      margin-left: 5px;
+      color: #605E5C;
+      font-weight: 400;
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      & img {
+        margin-left: 5px;
+        width: 16px;
+        height: 10px;
+      }
+    }
+    
+  }
+  
+}
+
+.rootNoMy{
+  justify-content: flex-end;
+
+}

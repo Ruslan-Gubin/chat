@@ -1,0 +1,16 @@
+.root {
+  width: 360px;
+  border-right: 2px solid rgba(128, 128, 128, 0.163);
+& .header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  & .title {
+     font-size: 18px;
+     line-height: 24px;
+     font-weight: 700;
+     padding: 0px 16px;
+     color: #201F1E;
+    }
+  }
+}

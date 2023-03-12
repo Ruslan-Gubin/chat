@@ -1,0 +1,15 @@
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(64, 126, 201, 0.08);
+  height: 24px;
+  margin-bottom: 10px;
+  & .new__title {
+    color: #407ec9;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

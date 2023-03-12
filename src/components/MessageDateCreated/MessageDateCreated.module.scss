@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  span {
+    background: rgba(64, 126, 201, 0.08);
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: #201f1e;
+    font-size: 12px;
+  }
+}
